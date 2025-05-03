@@ -20,11 +20,46 @@ body{
 
 .stop-watch .display {
   margin-bottom: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 5rem;
   font-weight: bold;
   text-shadow: 2px 2px 2px hsla(0, 51%, 14%, 0.358);
 }
 
-.controls {
-  gap: 10px;
+.controls button{
+  font-size: large;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 100px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: rgb(13, 13, 13);
+  transition: background-color .7s ease-out;
 }
+
+.start-button{
+  background-color: rgb(17, 177, 17);
+}
+
+.start-button:hover{
+  background-color: rgb(18, 84, 18);
+}
+
+.stop-button{
+  background-color: rgb(203, 56, 36);
+}
+
+.stop-button:hover{
+  background-color: rgb(113, 34, 20);
+}
+
+.reset-button{
+  background-color: rgb(58, 89, 217);
+}
+
+.reset-button:hover{
+  background-color: rgb(10, 29, 105);
+}
+
