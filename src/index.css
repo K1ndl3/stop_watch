@@ -10,7 +10,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 5px solid;
+  border: 2px solid;
   padding: 10px;
   border-radius: 20px;
   background-color: white;
@@ -63,13 +63,13 @@ body{
 
 
 .start-button:active{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.63);
 }
 
 .stop-button:active{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.56);
 }
 
 .reset-button:active{
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.495);
 }
