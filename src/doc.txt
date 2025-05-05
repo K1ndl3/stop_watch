@@ -10,12 +10,12 @@ you are supposed to set a time
 and then everytick, the logic decrement the time
 
 but the first step we need to is to create a boiler plate
-1 - display for the time
-    1a - section for hour
-    1b - section for minutes
-    1c - section for seconds 
-2 - start button
-3 - stop button
+1 - display for the time * 
+    1a - section for hour * 
+    1b - section for minutes * 
+    1c - section for seconds *  
+2 - start button * 
+3 - stop button * 
 
 
 Here will be the main functionality:
