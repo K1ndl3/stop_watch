@@ -8,10 +8,18 @@ function App() {
     setIsStopWatch(!isStopWatch);
   }
 
+  function getMode() {
+    let sw = "Stop Watch";
+    let t = "Timer";
+
+    return isStopWatch ? sw : t;
+
+  }
+
   return (
     <>
       {(isStopWatch) ? <StopWatch></StopWatch> : <Timer></Timer>}
-      <button className="switch-mode" onClick={SwitchMode}>Switch Mode</button>
+      <button className="switch-mode" onClick={SwitchMode}>Switch to {getMode()}</button>
     </>
   );
 }
