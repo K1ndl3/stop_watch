@@ -73,3 +73,26 @@ body{
 .reset-button:active{
   background-color: rgba(255, 255, 255, 0.495);
 }
+
+
+.switch-mode {
+  margin-top: 20px;
+  border-radius: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: background-color ease-out;
+}
+
+.switch-mode:hover{
+  background-color: rgba(106, 102, 102, 0.729);
+}
+
+.switch-mode:active {
+  background-color: rgb(246, 240, 240);
+  transform: scale(95%);
+}
+
