@@ -1,0 +1,25 @@
+create a timer feature that we can switch between
+
+use the format of the stopwatch to create the timer
+the apps component will be responsible to switch between the two functionality
+
+
+so how does a timer work?
+
+you are supposed to set a time
+and then everytick, the logic decrement the time
+
+but the first step we need to is to create a boiler plate
+1 - display for the time
+    1a - section for hour
+    1b - section for minutes
+    1c - section for seconds 
+2 - start button
+3 - stop button
+
+
+Here will be the main functionality:
+    1. Set time
+    2. start time
+    3. Stop time
+    4. reset time
