@@ -12,8 +12,7 @@ function App() {
     let sw = "Stop Watch";
     let t = "Timer";
 
-    return isStopWatch ? sw : t;
-
+    return isStopWatch ? t : sw;
   }
 
   return (
